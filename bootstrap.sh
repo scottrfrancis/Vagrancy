@@ -15,6 +15,9 @@ echo ""
 sudo apt-get update
 sudo apt-get install -y git vim htop
 
+# Ubunut 16.04 doesn't activate ssh by default... so install it
+sudo apt-get install openssh-server -y
+
 sudo -u $USER_NAME cd ~
 sudo -u $USER_NAME git clone https://github.com/scottrfrancis/dotfiles.git
 sudo -u $USER_NAME cp dotfiles/.bash_profile /home/$USER_NAME/
