@@ -13,7 +13,7 @@ echo ""
 
 # my personal dotfiles and tools
 sudo apt-get update
-sudo apt-get install -y git vim htop
+sudo apt-get install -y git vim htop tree
 
 # Ubunut 16.04 doesn't activate ssh by default... so install it
 sudo apt-get install openssh-server -y
